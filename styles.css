@@ -1,0 +1,32 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width:100vw;
+  background: #002B5C;
+  align-items: center;
+}
+
+header {
+  color: white;
+}
+
+main {
+  border: 1px solid #6CAEDF;
+  width: 600px;
+  height: 600px;
+  background-image: url('images/jazz_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  background-color: #FFA200;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.f-box {
+  background-color:  #00471B;
+}
